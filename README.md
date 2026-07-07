@@ -17,9 +17,9 @@ Open <http://127.0.0.1:8000> to preview changes.
 
 ## Deployment
 
-Pushes to `main` trigger the [GitHub Actions workflow](.github/workflows/deploy.yml), which builds the site and publishes it to the `gh-pages` branch.
+Pushes to `main` trigger the [GitHub Actions workflow](.github/workflows/deploy.yml), which builds and deploys the site.
 
-In the repository **Settings → Pages**, set the source to **Deploy from a branch** and select the `gh-pages` branch with `/ (root)`.
+**One-time setup (required):** open [Settings → Pages](https://github.com/ovro-lwa-solar/ovro-lwa-solar.github.io/settings/pages) and set **Build and deployment → Source** to **GitHub Actions**.
 
 ## Adding content
 
