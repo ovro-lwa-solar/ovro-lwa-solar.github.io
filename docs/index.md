@@ -2,13 +2,38 @@
 
 Welcome to the OVRO-LWA Solar Observation Knowledge-base — a central reference for solar radio observations with the Owens Valley Radio Observatory Long Wavelength Array (OVRO-LWA).
 
-## About
+<div class="grid cards" markdown>
 
-This site documents workflows, data products, calibration procedures, and best practices for solar science with OVRO-LWA.
+-   :material-telescope:{ .lg .middle } **[About OVRO-LWA](about-ovro-lwa.md)**
 
-## Getting started
+    ---
 
-Use the navigation above to browse topics. Content will be expanded as the knowledge-base grows.
+    Overview of the array, observing modes, and the solar data product levels released by the OVRO-LWA solar program.
+
+-   :material-chart-timeline-variant:{ .lg .middle } **[Dynamic Spectrum Data](dynamic-spectrum-data.md)**
+
+    ---
+
+    All-day total-power spectrograms from the OVRO-LWA beamformer, from Level 1.0 calibration through Level 1.5 background and primary-beam corrections.
+
+-   :material-image-filter-hdr:{ .lg .middle } **[Imaging Data](imaging-data.md)**
+
+    ---
+
+    Interferometric spectral images produced by the `lwasolarproc` pipeline — fine-channel and band-averaged MFS products in FITS and HDF5.
+
+-   :material-cloud-download:{ .lg .middle } **[Data Access](data-access.md)**
+
+    ---
+
+    Browse, download, and cite OVRO-LWA solar data from the AWS Open Data Registry and the LWA Data Portal.
+
+</div>
+
+## Useful links
+
+- **[LWA Data Portal](https://ovsa.njit.edu/lwa/)** — browse recent spectrograms, images, and quicklook products
+- **[AWS Open Data Registry](https://registry.opendata.aws/ovrolwasolar/)** — public S3 access to spectral images and all-day spectrograms (`s3://ovro-lwa-solar`)
 
 ## Contributing
 

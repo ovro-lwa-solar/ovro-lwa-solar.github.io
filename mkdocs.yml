@@ -36,6 +36,8 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
@@ -47,3 +49,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - About OVRO-LWA: about-ovro-lwa.md
+  - Dynamic Spectrum Data: dynamic-spectrum-data.md
+  - Imaging Data: imaging-data.md
+  - Data Access: data-access.md
+
+extra:
+  analytics:
+    provider: google
+    property: G-J6J5GSLKJ7
